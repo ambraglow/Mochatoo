@@ -1,5 +1,127 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1e5a3146-1aec-4505-bd2f-d9df6e5b1063")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 97.79 48.895)
+		(size 48.895 26.035)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "525b41bd-94c8-4510-ae77-cd5408a62bf6")
+		(property "Sheetname" "Lattepanda-Mu"
+			(at 97.79 48.1834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mu.kicad_sch"
+			(at 97.79 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mochatoo"
+				(path "/1e5a3146-1aec-4505-bd2f-d9df6e5b1063"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 48.895)
+		(size 34.925 26.035)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a58c1bde-5b56-46a4-8199-0e18e60f78c7")
+		(property "Sheetname" "IO"
+			(at 153.67 48.1834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 153.67 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mochatoo"
+				(path "/1e5a3146-1aec-4505-bd2f-d9df6e5b1063"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 131.445 88.9)
+		(size 25.4 26.035)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8d0d5a7-7d5e-4895-9359-87a37fa1db06")
+		(property "Sheetname" "Power block"
+			(at 131.445 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 131.445 115.5196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mochatoo"
+				(path "/1e5a3146-1aec-4505-bd2f-d9df6e5b1063"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
